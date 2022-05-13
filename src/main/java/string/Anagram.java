@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Anagram {
 
     /**
-     * Compare strings size, if they are equal order alphabetically and compare results.
+     * Check if two string are an anagram
      * @param word
      * @param anagram
      * @return true if they are anagram.
@@ -21,9 +21,11 @@ public class Anagram {
         char[] charWord = word.toLowerCase().toCharArray();
         char[] charAnagram = anagram.toLowerCase().toCharArray();
 
+        // order alphabetically
         Arrays.sort(charWord);
         Arrays.sort(charAnagram);
 
+        // check if they are equal
         return new String(charWord).equals(new String(charAnagram));
     }
 

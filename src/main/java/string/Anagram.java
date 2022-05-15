@@ -5,11 +5,10 @@ import java.util.Arrays;
 public class Anagram {
 
     /**
-     * Check if two string are an anagram
+     * Returns boolean to indicate if both words are anagram of each other.
      * @param word
      * @param anagram
-     * @return true if they are anagram.
-     * @return false they are not anagram.
+     * @return True if words are an anagram, otherwise false.
      */
     public boolean solution(String word, String anagram){
 

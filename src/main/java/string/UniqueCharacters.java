@@ -5,10 +5,9 @@ import java.util.stream.Collectors;
 public class UniqueCharacters {
 
     /**
-     * Check if given string has all unique characters.
+     * Returns a boolean to indicate if all characters inside are unique.
      * @param word
-     * @return true if all characters are unique.
-     * @return false if any repeated character.
+     * @return True if all characters are unique, otherwise false.
      */
     public boolean solution(String word){
 

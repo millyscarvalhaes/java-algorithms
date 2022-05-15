@@ -3,7 +3,7 @@ package string;
 public class Palindrome {
 
     /**
-     * Return a palindrome of given string.
+     * Returns a palindrome of a given string.
      * @param word
      * @return Palindrome string.
      */

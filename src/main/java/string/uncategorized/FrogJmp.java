@@ -1,4 +1,4 @@
-package uncategorized;
+package string.uncategorized;
 
 public class FrogJmp {
     /**

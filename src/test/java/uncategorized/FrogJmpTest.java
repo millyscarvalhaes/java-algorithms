@@ -2,6 +2,7 @@ package uncategorized;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import string.uncategorized.FrogJmp;
 
 public class FrogJmpTest {
 

@@ -4,6 +4,10 @@ public class RotateArrayRight {
 
     public int[] solution(int[] A, int k){
 
+        if(A.length <= 0) {
+            return A;
+        }
+
         for (int i = 0; i < k; i++) {
 
             int last = A[A.length-1];

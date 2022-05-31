@@ -9,15 +9,21 @@ public class PrimeNumberTest {
 
     @Test
     void shouldPass(){
-        Assertions.assertTrue(primeNumber.isPrimeNumber(2));
-        Assertions.assertTrue(primeNumber.isPrimeNumber(3));
-        Assertions.assertTrue(primeNumber.isPrimeNumber(7));
+        Assertions.assertTrue(primeNumber.isPrimeNumberWithFor(2));
+        Assertions.assertTrue(primeNumber.isPrimeNumberWithFor(3));
+        Assertions.assertTrue(primeNumber.isPrimeNumberWithFor(7));
+        Assertions.assertTrue(primeNumber.isPrimeNumberWithFor(13));
     }
 
     @Test
     void shouldFail(){
-        Assertions.assertFalse(primeNumber.isPrimeNumber(1));
-        Assertions.assertFalse(primeNumber.isPrimeNumber(4));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(1));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(4));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(15));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(21));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(77));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(9));
+        Assertions.assertFalse(primeNumber.isPrimeNumberWithFor(25));
     }
 
 }
